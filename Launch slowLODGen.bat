@@ -1,16 +1,16 @@
 @echo off
 
-# Change to script dir
+:: Change to script dir
 cd /d "%~dp0"
 
-# Admin Check
+:: Admin Check
 fltmc >nul 2>&1 || (
    echo ERROR: Run as Administrator.
    pause & exit /b 1
 )
 
-# Run pypy in script dir
+:: Run pypy in script dir
 .\pypy.exe slowLODGen.py 
 
-# Review work
+:: Review work
 pause
