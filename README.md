@@ -4,7 +4,7 @@ Description
 It helps slowLODGen work on Oblivion (legacy), so if you have issues getting it to work, then you should use this. It does 2 things..
 1. Fixes the batch file, it had the incorrect location of `pypy.exe`.
 2. It allows the user to fix critical folder locations required for operation of `slowLODGen`.
-3. It ensures that `slowLODGen` is run as admin, because if you dont then you will get a load of issues printed, that can be missed by user and will not be visible by the time you get to the end.
+3. It ensures that `slowLODGen` is run as admin, because if you dont then you will get a load of issues printed at the start, that, can be missed by user and will not be visible by the time you get to the end.
 
 Instruction
 1) Extract to location of "slowLODGen" folder, over-writing the original bat.
