@@ -7,6 +7,7 @@ It helps slowLODGen work on Oblivion (legacy), so if you have issues getting it 
 3. It ensures that `slowLODGen` is run as admin, because if you dont then you will get a load of issues printed at the start, that, can be missed by user and will not be visible by the time you get to the end.
 
 Media:
+
 [![Video: slowLODGen Helper – Oblivion LOD Processing Tool](media/youtube.jpg)](https://www.youtube.com/watch?v=-NgE1-WC9X0)
 
 Instruction:
