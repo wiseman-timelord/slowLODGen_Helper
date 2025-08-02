@@ -7,10 +7,11 @@ It helps slowLODGen work on Oblivion (legacy), so if you have issues getting it 
 3. It ensures that `slowLODGen` is run as admin, because if you dont then you will get a load of issues printed at the start, that, can be missed by user and will not be visible by the time you get to the end.
 
 Instruction
-1) Extract to location of "slowLODGen" folder, over-writing the original bat.
-2) Run `Launch_slowLODGen_Helper.bat` as admin, this will allow the user to configure critical folders, or just leave them as they are shown to be.
-3) Run `Launch_slowLODGen.bat` as admin, this will then hopefully process your LOD appropriately as the thing is designed to do.
-4) Ensure to put MergedLOD.esm first place in the load order (done automatically by vortex).
+1) Ensure to haev "Powershell" upgraded to whatever is the highest level your OS supports, and in failing that or not wanting, then install Powershell Core 6+ (ask AI if you need help with "Upgrading my powershell version", remember mention your OS version).
+2) Extract to location of "slowLODGen" folder, over-writing the original bat.
+3) Run `Launch_slowLODGen_Helper.bat` as admin, this will allow the user to configure critical folders, or just leave them as they are shown to be.
+4) Run `Launch_slowLODGen.bat` as admin, this will then hopefully process your LOD appropriately as the thing is designed to do.
+5) Ensure to put MergedLOD.esm first place in the load order (done automatically by vortex).
 
 Notation
 - I did release it on Nexus, but because powershell code, it got rejected, instead of re-making it in python, I will just put it here. 
