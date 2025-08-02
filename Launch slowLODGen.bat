@@ -10,7 +10,8 @@ fltmc >nul 2>&1 || (
 )
 
 :: Run pypy in script dir
-.\pypy.exe slowLODGen.py 
+.\pypy\pypy.exe slowLODGen.py 
 
 :: Review work
 pause
+
