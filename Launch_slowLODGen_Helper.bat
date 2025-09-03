@@ -16,8 +16,8 @@ fltmc >nul 2>&1 || (
 
 :: === 5. safe batch checks ===
 set "PYFOUND=0"
-if exist "pypy.exe" set "PYFOUND=1"
-echo [batch] pypy.exe present: %PYFOUND%
+if exist ".\pypy\pypy.exe" set "PYFOUND=1"
+echo [batch] .\pypy\pypy.exe present: %PYFOUND%
 
 set "YAMLFOUND=0"
 if exist "LODGen_config.yaml" set "YAMLFOUND=1"
