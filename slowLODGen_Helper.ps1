@@ -44,7 +44,7 @@ function Fix-PluginsPath($path) {
 
 # ---- game_folder ----
 $currentGame = Get-Current "game_folder"
-Write-Host "[ps] Current game_folder : $currentGame"
+Write-Host "[ps] Current ~\game_folder\Data location: $currentGame"
 $prompt = if ($currentGame) { "Press Enter to keep, or type new path" } else { "Enter path to Oblivion\Data (eg C:\Games\Oblivion\Data)" }
 $newGame = Read-Host $prompt
 if ([string]::IsNullOrWhiteSpace($newGame)) { $newGame = $currentGame }
